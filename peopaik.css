@@ -10,6 +10,7 @@ height: 100px;
 }
 body, html {
     height: 100%;
+    font-family: 'Roboto Slab', serif;
   }
   
   .bg {
@@ -22,3 +23,5 @@ body, html {
     inset: 0;
     z-index: -1;
   }
+ 
+
