@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.background {
+    background-image: url("./pilt.png");
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    font-weight: bold;
+}
+
+.specify{
+    height: 50px;
+    align-items: center;
+}
+
+.flowers{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.other{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+   
+}
+
+.text{
+    text-align: center;
+}
+
+.checkbox{
+    width: 25px;
+    height: 25px;
+}
+
+.flowers.specify{
+    display: flex;
+}
