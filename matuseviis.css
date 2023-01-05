@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: 'Roboto Slab', serif;
+    background-image: url(pilt2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1 {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: 2.25rem;
+
+}
+
+.container {
+    padding: 1rem;
+    margin: 0 auto;
+}
+.item-text {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+
