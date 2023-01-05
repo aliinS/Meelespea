@@ -1,0 +1,15 @@
+.peopaik {
+    text-align: center;
+}
+body {
+    background-image: url("pilt.png"), url("pilt.png");
+    background-repeat: no-repeat; 
+    font-family: 'Roboto Slab', serif;
+
+  }
+.box1{
+height: 100px; 
+}
+.box2{
+    height: 100px;
+}
