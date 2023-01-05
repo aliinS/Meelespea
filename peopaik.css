@@ -1,16 +1,24 @@
 .peopaik {
     text-align: center;
 }
-body {
-    background-image: url("pilt.png"), url("pilt.png");
-    background-repeat: no-repeat; 
-    font-family: 'Roboto Slab', serif;
-    background-size: cover;
 
-  }
 .box1{
 height: 100px; 
 }
 .box2{
     height: 100px;
 }
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    background-image: url("pilt.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
