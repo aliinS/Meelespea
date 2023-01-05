@@ -5,6 +5,7 @@ body {
     background-image: url("pilt.png"), url("pilt.png");
     background-repeat: no-repeat; 
     font-family: 'Roboto Slab', serif;
+    background-size: cover;
 
   }
 .box1{
