@@ -52,3 +52,13 @@ line-height: 1.5;
 .text {
     text-align: center;
 }    
+.navbar {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #78c9db;
+    opacity: 0.7;
+  }
