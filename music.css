@@ -10,7 +10,7 @@ body {
 }
 
 .background {
-    background-image: url("./pilt.png");
+    background-image: url("img/background.png");
     background-size: cover;
     position: fixed;
     top: 0px;
@@ -53,4 +53,13 @@ body {
     display: flex;
 }
 
-
+.navbar {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #78c9db;
+    opacity: 0.8;
+}
