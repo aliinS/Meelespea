@@ -6,15 +6,15 @@
 height: 100px; 
 }
 .box2{
-    height: 100px;
+height: 100px;
 }
 body, html {
     height: 100%;
     font-family: 'Roboto Slab', serif;
   }
   
-  .bg {
-    background-image: url("pilt.png");
+.bg {
+    background-image: url("meelespea.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,6 +22,10 @@ body, html {
     position: absolute;
     inset: 0;
     z-index: -1;
-  }
+}
+
+
+  
+
  
 
