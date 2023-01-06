@@ -9,14 +9,12 @@ body {
 }
 
 .background {
-    background-image: url("./pilt.png");
+    background-image: url("/img/iPhone\ 14\ -\ 4.svg");
     background-size: cover;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
+    position: absolute;
+    height: 100%;
+    inset: 0;
+    z-index: -1;
 }
 
 .container {
@@ -49,11 +47,6 @@ body {
 
 .text{
     text-align: center;
-}
-
-.checkbox{
-    width: 25px;
-    height: 25px;
 }
 
 .textbox{
