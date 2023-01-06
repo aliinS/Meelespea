@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    font-family: 'Roboto Slab', serif;
+    background-image: url(pilt2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1 {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: 2.25rem;
+
+}
+
+.container {
+    padding: 1rem;
+    margin: 0 auto;
+    
+}
+.item-text {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+#primary-button{  
+    width: 140px;
+    height: 41px;
+    font-family: 'Roboto Slab', serif;
+    border: 2px solid #45c3e3;
+    background-color: #78c9db;
+    border-radius: 11px;
+    color: black !important;
+    font-weight: 1000;
+    font-size: large;
+
+}
+
+.navbar {
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #78c9db;
+    opacity: 0.8;
+}
