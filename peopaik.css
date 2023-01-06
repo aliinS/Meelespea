@@ -1,13 +1,8 @@
 .peopaik {
     text-align: center;
+    padding-top: 100px;
 }
 
-.box1{
-height: 100px; 
-}
-.box2{
-height: 100px;
-}
 body, html {
     height: 100%;
     font-family: 'Roboto Slab', serif;
@@ -39,4 +34,14 @@ body, html {
   justify-content: space-around;
   background-color: #78c9db;
   opacity: 0.7;
+}
+h3{
+  padding-top: 20px;
+}
+h2{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.textarea{
+  width: 75%;
 }
